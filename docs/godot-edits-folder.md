@@ -174,3 +174,7 @@
 - Tests: browser t_ferry 3/3, t_people 1/1, t_people3 4/4 + all earlier suites; Godot tests/ferry_test.gd 17/17, edits 11/11 and all earlier suites. Shots: tests/ferry_shots.gd.
 - v100_test (the opening run-through: Redoubt Nine, Ashworth, the signal hut, going round a meeting, the sky-fire, the Malice Gaol record) had been stale since 11 November: the Mud's inner conversation on leaving the redoubt came before the road it expected. It now says nothing and walks, then goes on: 35/35 (also with PT_CUT=1).
 - Published: main artifact v183, PostalTrace_Phone v4, Postal.Phone repo pushed. PostalTrace_Godot_16.zip + postaltrace.zip.
+
+## V186 / Godot 17: no see-through indoors, bridge keepers coats off
+- See-through (occlusion stipple) is off in every interior (any `a__b` place in Godot, `sc.area` in the browser) except market__yard, and at road camps (tent, lean-to, hide). world.gd `_update_see_through`; browser `wNoFade`. tests/nofade_test.gd.
+- The bridge gang (bridge sentry, the two at the toll, the bridgemaster, the seven in the ferry house) wear a flat dark shirt/waistcoat and trousers, cross belts left on in buff, no shako or pack. New look key `flat` (group -> colour) in the browser's wRigDraw and Godot figure.gd dress(); browser `gangLook`. Ostrey's levies keep the blue. tests/gang_test.gd (4/4). data/places/ford.json and ford__ferryhouse.json re-exported (looks only).

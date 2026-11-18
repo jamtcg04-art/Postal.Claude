@@ -5,9 +5,9 @@ Working archive for **The Postal Trace**, a Disco Elysium-style courier RPG (bro
 ## Latest (Nov 17, 2026, evening)
 | File | What it is |
 |---|---|
-| `PostalTrace_browser_V185.zip` | Full browser build (V185): `index.html`, `gaol.html`, `assets/` (3D scripts, sound, music). Open `index.html` in a browser. This is the developer build (Dev Load / Dev Mode available). |
-| `PostalTrace_Godot_16.zip` | Godot 4.3 desktop project (version 16). |
-| `PostalTrace_Handheld_PortMaster.zip` | Anbernic / PortMaster handheld package built from Godot 16. |
+| `PostalTrace_browser_V186.zip` | Full browser build (V186): `index.html`, `gaol.html`, `assets/` (3D scripts, sound, music). Open `index.html` in a browser. This is the developer build (Dev Load / Dev Mode available). |
+| `PostalTrace_Godot_17.zip` | Godot 4.3 desktop project (version 17). |
+| `PostalTrace_Handheld_PortMaster.zip` | Anbernic / PortMaster handheld package built from Godot 17. |
 | `docs/godot-edits-folder.md` | Running notes on every edit, test and build step. |
 
 The **phone/shareable build** lives in its own repository: `Postal.Phone` (same game, developer tools hidden, installable on a phone's home screen).
